@@ -6,7 +6,7 @@ int pos = 0;
 
 void setup() {
 	pinMode(buttonPin, INPUT);
-  Serial.begin(9600);
+  	Serial.begin(9600);
 	motor.attach(4,750,2245);
 }
 
